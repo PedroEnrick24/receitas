@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Receitas</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Buscador De Receitas</h1>
+      <h5>
+        Importante: digite os ingredientes em inglês, pois a API utilizada
+        funciona apenas nesse idioma.
+      </h5>
+      <h4>
+        Ao clicar em uma receita, as informações serão exibidas no final da
+        página.
+      </h4>
+      <h8>Atualizações no futuro</h8>
+      <form class="search-form">
+        <input
+          type="text"
+          placeholder="Digite o igrediente"
+          class="search-input"
+        />
+        <button class="search-button">Buscar Receita</button>
+      </form>
+
+      <div class="loading"></div>
+      <div class="recipe-list"></div>
+      <div class="recipe-detaills"></div>
+    </main>
+  </body>
+  <script src="scripts.js"></script>
+</html>
